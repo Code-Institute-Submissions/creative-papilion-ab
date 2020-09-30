@@ -4,57 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Abel&family=Parisienne&family=Rajdhani:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <title>Papilion</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Papilion AB</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
 </head>
 
 <body>
     <header class="header">
-        
+
         <svg 
-        class="wave-header" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
-        <lineargradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%" >
-             <stop offset="0%" />
-             <stop offset="100%" />
-         </lineargradient>
-             <path fill="url(#gradient)" fill-opacity="1"
-                 d="M0,288L20,277.3C40,267,80,245,120,224C160,203,200,181,240,170.7C280,160,320,160,360,154.7C400,149,440,139,480,165.3C520,192,560,256,600,250.7C640,245,680,171,720,154.7C760,139,800,181,840,208C880,235,920,245,960,224C1000,203,1040,149,1080,149.3C1120,149,1160,203,1200,197.3C1240,192,1280,128,1320,128C1360,128,1400,192,1420,224L1440,256L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z">
-             </path>
-         </svg>
-    
-        <div class="sub-header fixed">
+       class="wave-header" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%" >
+            <stop offset="0%" />
+            <stop offset="100%" />
+        </linearGradient>
+            <path fill="url(#gradient)" fill-opacity="1"
+                d="M0,288L20,277.3C40,267,80,245,120,224C160,203,200,181,240,170.7C280,160,320,160,360,154.7C400,149,440,139,480,165.3C520,192,560,256,600,250.7C640,245,680,171,720,154.7C760,139,800,181,840,208C880,235,920,245,960,224C1000,203,1040,149,1080,149.3C1120,149,1160,203,1200,197.3C1240,192,1280,128,1320,128C1360,128,1400,192,1420,224L1440,256L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z">
+            </path>
+        </svg>
+
+        <div class="sub-header">
             <div class="left-block">
                 <div class="logo">
-                    <!-----<"/assets/images/papilogo.png" alt="">------>
-                    <a href="#connect">Papilogo</a>
+                    <img src="./assets/images/papilogo.png" alt="">
+                   <!---<a href="#">Papilogo</a>---> 
                 </div>
-
-                    <div class="collapsible-menu active">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
-
-                <div class="right-block">
-                    <ul class="menu-list">
+                <div class="collapsible-menu ">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="right-block">
+                <ul class="menu-list">
                     <li><a class="link" href="#team">Office</a></li>
-                    <li><a class="link" href="#bookus">Booking</a></li>
+                    <li><a class="link" href="#booking">Booking</a></li>
                     <li><a class="link" href="#team">Team</a></li>
                     <li><a class="link" href="#connect">Connect</a></li>
-                    </ul>
-                </div>
+                </ul>
             </div>
         </div>
     </header>
 
-    <section class="lead">
+    <section class="lead" id="office">
+        <h2>join Us @</h2>
         <div class="leader-left">
             <div class="leader">
                 <span>P</span>
@@ -68,6 +68,8 @@
                 <span>&nbsp;</span>
                 <span>A</span>
                 <span>B</span>
+            
+            <h4>Looking After your family's creative needs <br> Contact us to see how we can help you</h4>
             </div>
 
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas vitae optio dignissimos nulla non
@@ -78,77 +80,91 @@
         <div class="leader-right" id="booking">
             <img src="/assets/images/creative-tools.png" alt="#">
         </div>
-    
     </section>
- 
- <!-- Products list -->  
- <section class="service" id="bookus">
-    <div>
-        <h1>Book a Consultation</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem.</p>
-    </div>
-    <div class="services-groups">
-    <div class="services"><img src="/assets/images/groupTogether.png" alt="chat"></div>    
-    <div class="services"><img src="/assets/images/canvas.png" alt="arts"></div>
-    <div class="services"><img src="/assets/images/techhome.png" alt="tech"></div>
-    <div class="services"><img src="/assets/images/family.png" alt="families"></div>
-    <div class="services"><img src="/assets/images/protest.png" alt="empowerment"></div>
-    </div>
-</section>
+<!-- Products list -->
+    <section class="service" id="bookus">
+        <div>
+            <h1>Book a Consultation</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem.</p>
+        </div>
+        <div class="services-groups">
+        <div class="services"><img src="/assets/images/groupTogether.png" alt="chat"></div>    
+        <div class="services"><img src="/assets/images/canvas.png" alt="arts"></div>
+        <div class="services"><img src="/assets/images/techhome.png" alt="tech"></div>
+        <div class="services"><img src="/assets/images/family.png" alt="families"></div>
+        <div class="services"><img src="/assets/images/protest.png" alt="empowerment"></div>
+        </div>
+    </section>
+<!--who are we section -->
+    <section class="about" id="team">
+        <div>
+            <h1>Meet The Team</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem.</p>
+        </div>
+        <div class="team-img">
+            <img src="/assets/images/theteam.png" alt="team" />
+        </div>
 
-<!-- who we are section -->
-<section class="about" id="team">
-    <div>
-        <h1>Meet The Team</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem.</p>
-    </div>
-    <div class="team-img">
-        <img src="/assets/images/theteam.png" alt="team" />
-    </div>
-
-</section>
-
+    </section>
 <!-- Contact Us section -->
-<section class="contact" id="connect">
+    <section class="contact" id="connect">
         
-    <div class="contact-img">
-        <img src="/assets/images/contact-us.png" alt="connect" />
-    </div>
-</section>
+        <div class="contact-img">
+            <img src="/assets/images/contact-us.png" alt="connect" />
+        </div>
+<div>
+            <h1>Reach Out To Us</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aspernatur accusamus nemo! Ad numquam ex eum id nostrum? Commodi consectetur iusto culpa quidem ut! Laborum inventore qui neque cumque voluptatem. lore</p>
+        </div>
+    </section>
+<!-- Testimonials Section -->
+<h2>Because we care....</h2>
+    <section class="slide-container" id="about">
+        <h4>(A few keywords from you, our clients. Thankyou)</h4>
+        <div>
+            <div  class="mySlides">
+                <i class="fas fa-quote-left"></i>
+                <p>which way to calvary Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste dignissimos ab fugit quam sequi ducimus, labore obcaecati quae architecto doloremque esse aspernatur nesciunt minus ex fuga animi reprehenderit nihil.</p>
+                
+                <div class="author">Tomas Dolt</div>
+            </div>
 
-<!-- testimonials section -->
-<section class="slide-container" id="about">
-    <div>
-        <div  class="mySlides">
-            <i class="fas fa-quote-left"></i>
-            <p>which way to calvary Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste dignissimos ab fugit quam sequi ducimus, labore obcaecati quae architecto doloremque esse aspernatur nesciunt minus ex fuga animi reprehenderit nihil.</p>
-            
-            <div class="author">Tomas Dolt</div>
+            <div class="mySlides">
+                <i class="fas fa-quote-left"></i>
+                <p>Testing 123 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste dignissimos ab fugit quam sequi ducimus, labore obcaecati quae architecto doloremque esse aspernatur nesciunt minus ex fuga animi reprehenderit nihil.</p>
+                
+                <div class="author">Jumanji Jameson</div>
+            </div>
+
+            <div class="mySlides">
+                <i class="fas fa-quote-left"></i>
+                <p>And tomorrows a beautiful day Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste dignissimos ab fugit quam sequi ducimus, labore obcaecati quae architecto doloremque esse aspernatur nesciunt minus ex fuga animi reprehenderit nihil.</p>
+                
+                <div class="author">Remi Tawoshe</div>
+            </div>
         </div>
 
-        <div class="mySlides">
-            <i class="fas fa-quote-left"></i>
-            <p>Testing 123 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste dignissimos ab fugit quam sequi ducimus, labore obcaecati quae architecto doloremque esse aspernatur nesciunt minus ex fuga animi reprehenderit nihil.</p>
-           
-            <div class="author">Jumanji Jameson</div>
+    </section>
+
+
+    <footer>
+        <div class="row no-gutters bg-color-footer">
+            <div class="col-md-4 footer-links">
+                <a href="index.html">Papilion AB 2020</a>
+            </div>
+            <div class="col-md-4 footer-links">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a> </div>
+            <div class="col-md-4 list-inline footer-links">
+                <a href="https://youtu.be/J0WSZuVI3GM" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-youtube-play"></i></a>
+                <a href="https://www.linkedin.com/" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-linkedin-square"></i> </a>
+                <a href="https://www.facebook.com/hiphopteaterkollektivet" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-facebook-square"></i> </a>
+                <a href="https://www.instagram.com/hiphopteaterkollektivet/" class="footer-social-links list-inline-item" target="_blank"> <i class="fa fa-instagram"></i> </a>
+            </div>
         </div>
-
-        <div class="mySlides">
-            <i class="fas fa-quote-left"></i>
-            <p>And tomorrows a beautiful day Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro iste dignissimos ab fugit quam sequi ducimus, labore obcaecati quae architecto doloremque esse aspernatur nesciunt minus ex fuga animi reprehenderit nihil.</p>
-            
-            <div class="author">Remi Tawoshe</div>
-        </div>
-    </div>
-
-</section>
-</body>
-<footer>
-
-</footer>
-
-<script src="./script.js"></script>
-<script src="https://kit.fontawesome.com/ceee125887.js" crossorigin="anonymous"></script>
+    </footer>
+    <script src="./script.js"></script>
+    <!--<script data-who="💎 Made with naker.io 💎" src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js" data-option="{|environment|:{|gradient|:|horizontal|,|sensitivity|:0.8,|colorStart|:[165,4,4,1],|colorEnd|:[212,157,82,1]},|particle|:{|life|:5,|power|:0.01,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_05.png|,|number|:105,|colorStart|:[151,69,178,1],|colorEnd|:[107,115,198,0.85],|sizeStart|:1.09,|sizeEnd|:2.18,|direction1|:{|x|:0,|y|:100,|z|:100},|direction2|:{|x|:0,|y|:0,|z|:-100}}}" ></script>-->
+    <script src="https://kit.fontawesome.com/ceee125887.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -158,5 +174,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+
+</body>
 
 </html>
